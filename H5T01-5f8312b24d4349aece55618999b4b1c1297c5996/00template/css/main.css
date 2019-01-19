@@ -1,6 +1,20 @@
+/* Global Tag Style */
+ul{
+    margin: 0;
+    padding: 0;
+}
+ a {
+    text-decoration: none;
+    color:black;
+    /* cursor: wait; */
+    
+}
+/* My Style, 커스터마이징 */
+
 #wrapper{
     width: 1000px;
     margin:0 auto;
+    padding-bottom: 100px;
 
 }
 img{
@@ -10,7 +24,77 @@ img{
     text-align: center;
     font-size: 2rem;
     }
-#header a{
-    text-decoration: none;
-    color:black;
+
+#nav ul{
+    list-style: none;
+}
+#nav ul li{
+    display: inline-block;
+    /*width: 100px;*/
+    text-align: center;
+    background-color: #d02fac;
+    padding: 10px;   
+}
+#nav ul li a {
+    color: #ffffff;
+}
+#nav ul.menus {
+    float: left; 
+}
+#nav ul.icons {
+    float: right; 
+}
+#main {
+    clear: both;
+}
+.featured header {
+    margin-top: 88px ;
+    padding:0 0 ; 
+}
+.featured header h2{
+    text-align: center;
+}
+
+#footer {
+    border-top: solid 1px  #bcd728;
+    padding-top: 30px;
+    display: flex;
+    }
+ #footer .contact,
+ #footer .info {
+     flex: 1;
+     padding: 30px;
+ } 
+ #footer .contact label,
+ #footer .contact input{
+     display: block;
+ } 
+ #footer .contact label{
+     margin-bottom: 10px;
+ }
+ #footer .contact input{
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 20px;
+} 
+#footer .contact textarea {
+    box-sizing: border-box;
+    width: 100%;
+}
+#footer .info ul {
+    list-style: none;
+}
+#footer .info ul li{
+     display: inline-block;
+}
+#copyrirht {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    background-color: #262626;
+    color: #ededed;
 }
